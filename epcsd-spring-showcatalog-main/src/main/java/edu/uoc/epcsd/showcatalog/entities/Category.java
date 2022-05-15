@@ -10,8 +10,8 @@ import java.util.List;
 @ToString(exclude = "shows")
 @Getter
 @Setter
-@EqualsAndHashCode
 @Builder
+@EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
 public class Category {

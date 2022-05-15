@@ -3,14 +3,15 @@ package edu.uoc.epcsd.showcatalog.entities;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.Date;
 import java.util.List;
 
 @Entity
 @ToString
 @Getter
 @Setter
-@EqualsAndHashCode
 @Builder
+@EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
 public class Show {
@@ -22,6 +23,21 @@ public class Show {
     @Column(name = "name")
     private String name;
 
+    @Column(name = "image")
+    private String image;
+
+    @Column(name = "price")
+    private float price;
+
+    @Column(name = "duration")
+    private int duration; //in minutes
+
+    @Column(name = "capacity")
+    private int capacity;
+
+    @Column(name = "onSaleDate")
+    private Date onSaleDate;
+
     @ManyToMany(cascade = CascadeType.MERGE)
     @JoinTable(
             name = "show_categories",
@@ -29,4 +45,5 @@ public class Show {
             inverseJoinColumns = @JoinColumn(name = "id_category")
     )
     private List<Category> categories;
+
 }

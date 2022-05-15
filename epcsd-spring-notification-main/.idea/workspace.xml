@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5ac05db-4b31-45bf-9060-239dc9fb959d" name="Changes" comment="" />
+    <list default="true" id="d5ac05db-4b31-45bf-9060-239dc9fb959d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/dataTransferObjects/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/dataTransferObjects/ShowDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/PerformanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/PerformanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/ShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/dataTransferObjects/PerformanceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/dataTransferObjects/PerformanceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Performance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Performance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/PerformanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/PerformanceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/ShowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/ShowRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/controllers/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/controllers/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/controllers/ShowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/controllers/ShowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Category$CategoryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Category$CategoryBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Show$ShowBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Show$ShowBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Show.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/repositories/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/repositories/CategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/repositories/ShowRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/repositories/ShowRepository.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -18,41 +46,34 @@
     </option>
   </component>
   <component name="ProjectId" id="28wlbRhciRGrk0u5PqOQ0jFAI5P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/chris/Desktop/Christian/A.Estudios/A.Universidad/4.-Semestre_02-2022-06-2022/Ingeniería_del_software_de_componentes_y_sistemas_distribuidos/PRs/Pr2/contenedor/epcsd-spring-main/epcsd-spring-notification-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "0cfd653d5d3e1e9fdbb644523d77971d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Intellij/epcsd-spring-main/epcsd-spring-notification-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0cfd653d5d3e1e9fdbb644523d77971d&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="notification" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="notification" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="notification" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.uoc.epcsd.notification.NotificationApplication" />
@@ -74,10 +95,24 @@
       <workItem from="1652136592754" duration="57000" />
       <workItem from="1652136670672" duration="341000" />
       <workItem from="1652137317177" duration="615000" />
+      <workItem from="1652177768453" duration="3029000" />
+      <workItem from="1652570007180" duration="1764000" />
+      <workItem from="1652652483164" duration="762000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
