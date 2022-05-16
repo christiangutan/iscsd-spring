@@ -1,0 +1,690 @@
+{
+	"info": {
+		"_postman_id": "e688563a-0a48-434d-9ac7-12d077a35da4",
+		"name": "PR2-ShowCatalog-Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create Category Electronic",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Electronic\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/category/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Category Clasical",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Clasical\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/category/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Category Regee",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Regee\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/category/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Category Jazz",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Jazz\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/category/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Category Pop",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Pop\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/category/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete Category id=4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/category/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"category",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get category byName name = Clasical",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/category/byName/Clasical",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"category",
+						"byName",
+						"Clasical"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Category byId id = 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/category/byId/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"category",
+						"byId",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post Show djValladolid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"DJValladolid\",\r\n  \"image\": \"djValladolid.pnj\",\r\n  \"price\": 15,\r\n  \"duration\": 240,\r\n  \"capacity\": 40000,\r\n  \"onSaleDate\": \"2022-05-16T18:10:43.826Z\",\r\n  \"categories\": [\r\n    3\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/show/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "DJValladolid",
+							"disabled": true
+						},
+						{
+							"key": "image",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post Show djPalencia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"DJPalencia\",\r\n  \"image\": \"djPalencia.pnj\",\r\n  \"price\": 10,\r\n  \"duration\": 200,\r\n  \"capacity\": 200000,\r\n  \"onSaleDate\": \"2022-05-16T18:10:43.826Z\",\r\n  \"categories\": [\r\n    1,2\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/show/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "DJValladolid",
+							"disabled": true
+						},
+						{
+							"key": "image",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post Show djBurgos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"DJBurgos\",\r\n  \"image\": \"djBurgos.pnj\",\r\n  \"price\": 5,\r\n  \"duration\": 200,\r\n  \"capacity\": 200000,\r\n  \"onSaleDate\": \"2022-05-16T18:10:43.826Z\",\r\n  \"categories\": [\r\n    1\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/show/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "DJValladolid",
+							"disabled": true
+						},
+						{
+							"key": "image",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post Show ViolinPerformance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"ViolinPerformance\",\r\n  \"image\": \"violinPerformance.pnj\",\r\n  \"price\": 17,\r\n  \"duration\": 100,\r\n  \"capacity\": 300,\r\n  \"onSaleDate\": \"2022-05-16T18:10:43.826Z\",\r\n  \"categories\": [\r\n    2\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/show/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "DJValladolid",
+							"disabled": true
+						},
+						{
+							"key": "image",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post Show LaOrejadeVanGogh",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"LaOrejadeVanGogh\",\r\n  \"image\": \"LaOrejadeVanGogh.pnj\",\r\n  \"price\": 27,\r\n  \"duration\": 200,\r\n  \"capacity\": 20000,\r\n  \"onSaleDate\": \"2022-05-16T18:10:43.826Z\",\r\n  \"categories\": [\r\n    5\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/show/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "DJValladolid",
+							"disabled": true
+						},
+						{
+							"key": "image",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Show byId = 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/show/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Show byName = DJValladolid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/show/byName/DJValladolid",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						"byName",
+						"DJValladolid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Show byCategoryName = Clasical",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/show/byCategory/name/Clasical",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						"byCategory",
+						"name",
+						"Clasical"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Show byCategoryId = 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/show/byCategory/id/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						"byCategory",
+						"id",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete Show id = 4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/show/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"show",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post Performance 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"date\": \"2022-05-16T18:27:20.771Z\",\r\n  \"remainingSeats\": 1000,\r\n  \"status\": \"status\",\r\n  \"show\": 1,\r\n  \"url\": \"www.djValladolid/eventos/\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/performance/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"performance",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post Performance 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"date\": \"2022-05-16T18:27:20.771Z\",\r\n  \"remainingSeats\": 10000,\r\n  \"status\": \"status\",\r\n  \"show\": 5,\r\n  \"url\": \"www.laOrejaDeVanGogh/eventos/\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:18081/performance/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"performance",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Performance id = 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/performance/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"performance",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Performance byShowId = 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/performance/byShowId/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"performance",
+						"byShowId",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete Performance id = 2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18081/performance/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18081",
+					"path": [
+						"performance",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

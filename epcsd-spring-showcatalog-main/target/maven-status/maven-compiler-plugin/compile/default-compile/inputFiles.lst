@@ -1,0 +1,16 @@
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\repositories\PerformanceRepository.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\controllers\PerformanceController.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\dataTransferObjects\PerformanceDTO.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\kafka\KafkaProducerConfig.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\dataTransferObjects\ShowDTO.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\kafka\KafkaConstants.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\entities\Performance.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\repositories\ShowRepository.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\controllers\CategoryController.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\controllers\ShowController.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\repositories\CategoryRepository.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\entities\Category.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\entities\Show.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\dataTransferObjects\CategoryDTO.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\kafka\KafkaTopicConfig.java
+C:\Intellij\epcsd-spring-main\epcsd-spring-showcatalog-main\src\main\java\edu\uoc\epcsd\showcatalog\ShowCatalogApplication.java

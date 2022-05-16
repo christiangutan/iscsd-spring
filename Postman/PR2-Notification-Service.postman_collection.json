@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "5b68ffb2-b5c8-4fbf-869d-90b9080bb5d6",
+		"name": "PR2-Notification-Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:18082/notifications/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "18082",
+					"path": [
+						"notifications",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
