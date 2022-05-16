@@ -179,5 +179,6 @@ To check the operation, you can access the _Adminer_ panel at http://localhost:1
 ## Contact
 
 Pau Pineda - ppineda0@uoc.edu
+Christian Gutiérrez - christian.gutan.par@gmail.com
 
 <p align="right">(<a href="#top">go up</a>)</p>
