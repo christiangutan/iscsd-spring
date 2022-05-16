@@ -48,7 +48,7 @@ public class PerformanceController {
     public ResponseEntity<Performance> create(@Valid @RequestBody PerformanceDTO performanceDTO) {
         log.trace("Create Performance:" + performanceDTO);
 
-        if(showRepository.findById(performanceDTO.getShow()).isPresent()){
+        if(!showRepository.findById(performanceDTO.getShow()).isPresent()){
             return ResponseEntity.badRequest().build();
         }
 
@@ -57,6 +57,7 @@ public class PerformanceController {
                 .streamingURL(performanceDTO.getURL())
                 .remainingSeats(performanceDTO.getRemainingSeats())
                 .status(performanceDTO.getStatus())
+                .show(showRepository.findById(performanceDTO.getShow()).get())
                 .build();
 
         Performance performanceRet = performanceRepository.save(performance);
@@ -69,7 +70,8 @@ public class PerformanceController {
         log.trace("Delete Performance with id: " + id);
 
         if(performanceRepository.findById(id).isPresent()){
-            performanceRepository.deleteById(id);
+            Performance performance = performanceRepository.findById(id).get();
+            performanceRepository.delete(performance);
             return new ResponseEntity<>(HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

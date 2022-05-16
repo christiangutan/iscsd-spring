@@ -17,8 +17,6 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/notifications")
 public class NotificationController {
 
-    private final String showCatalogUrl = "http://localhost:8080/show/{id}";
-
     @Autowired
     private NotificationService notificationService;
 
@@ -26,14 +24,13 @@ public class NotificationController {
     public ResponseEntity sendShowCreated(@PathVariable Long id) {
         log.trace("Send Show Created");
 
-        RestTemplate restTemplate = new RestTemplate();
-        Show show = restTemplate.getForObject(showCatalogUrl, Show.class, id);
+        Show show = new RestTemplate().getForObject("http://localhost:18081/show/{id}", Show.class, id);
 
-        if (show != null) {
+        if (show == null) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        } else {
             notificationService.notifyShowCreation(show);
             return new ResponseEntity<>(HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 }

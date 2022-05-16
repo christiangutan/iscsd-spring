@@ -10,4 +10,6 @@ public interface PerformanceRepository extends JpaRepository<Performance, Long> 
 
     Optional<List<Performance>> findPerformancesByShow_Name(String name);
     Optional<List<Performance>> findPerformancesByShow_Id(Long id);
+    
+    void deletePerformancesByShow_Id(Long id);
 }

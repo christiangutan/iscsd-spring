@@ -6,6 +6,7 @@ import edu.uoc.epcsd.showcatalog.entities.Performance;
 import edu.uoc.epcsd.showcatalog.entities.Show;
 import edu.uoc.epcsd.showcatalog.kafka.KafkaConstants;
 import edu.uoc.epcsd.showcatalog.repositories.CategoryRepository;
+import edu.uoc.epcsd.showcatalog.repositories.PerformanceRepository;
 import edu.uoc.epcsd.showcatalog.repositories.ShowRepository;
 import lombok.Value;
 import lombok.extern.log4j.Log4j2;
@@ -29,6 +30,9 @@ public class ShowController {
 
     @Autowired
     private CategoryRepository categoryRepository;
+
+    @Autowired
+    private PerformanceRepository performanceRepository;
 
     @Autowired
     private KafkaTemplate<String, Show> kafkaTemplate;
@@ -78,7 +82,9 @@ public class ShowController {
         log.trace("Delete show with id: " + id);
 
         if(showRepository.findById(id).isPresent()){
-            showRepository.deleteById(id);
+            Show show = showRepository.findById(id).get();
+            showRepository.delete(show);
+
             return new ResponseEntity<>(HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -89,7 +95,7 @@ public class ShowController {
     public ResponseEntity<List<Show>> getShowsByName(@PathVariable String name){
         log.trace("Get Shows by name: " + name);
 
-        if(showRepository.findShowsByName(name).isPresent()){
+        if(showRepository.findShowsByName(name).get().size()>0){
             return ResponseEntity.ok(showRepository.findShowsByName(name).get());
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -100,7 +106,7 @@ public class ShowController {
     public ResponseEntity<List<Show>> getShowsByCategoryId(@PathVariable Long id){
         log.trace("Get Show by idCategory: " + id);
 
-        if(showRepository.findByCategoriesId(id).isPresent()){
+        if(showRepository.findByCategoriesId(id).get().size()>0){
             return ResponseEntity.ok(showRepository.findByCategoriesId(id).get());
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -111,7 +117,7 @@ public class ShowController {
     public ResponseEntity<List<Show>> getShowsByCategoryName(@PathVariable String name){
         log.trace("Get Show by nameCategory: " + name);
 
-        if(showRepository.findByCategoriesName(name).isPresent()){
+        if(showRepository.findByCategoriesName(name).get().size()>0){
             return ResponseEntity.ok(showRepository.findByCategoriesName(name).get());
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

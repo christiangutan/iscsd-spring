@@ -65,7 +65,7 @@ public class CategoryController {
     }
 
     @GetMapping("/byName/{name}")
-    public ResponseEntity<Category> getById(@PathVariable String name) {
+    public ResponseEntity<Category> getByName(@PathVariable String name) {
         log.trace("Get Category by Name: " + name);
         if(categoryRepository.findCategoryByName(name).isPresent()){;
             return ResponseEntity.ok(categoryRepository.findCategoryByName(name).get());

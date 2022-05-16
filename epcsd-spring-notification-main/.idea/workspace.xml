@@ -5,27 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5ac05db-4b31-45bf-9060-239dc9fb959d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/dataTransferObjects/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/dataTransferObjects/ShowDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uoc/epcsd/notification/controllers/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uoc/epcsd/notification/controllers/NotificationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/PerformanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/PerformanceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/controllers/ShowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/dataTransferObjects/PerformanceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/dataTransferObjects/PerformanceDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Performance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Performance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/entities/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/CategoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/PerformanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/PerformanceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/ShowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/src/main/java/edu/uoc/epcsd/showcatalog/repositories/ShowRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/controllers/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/controllers/CategoryController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/controllers/ShowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/controllers/ShowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Category$CategoryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Category$CategoryBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Show$ShowBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Show$ShowBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/entities/Show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/repositories/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/repositories/CategoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/repositories/ShowRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../epcsd-spring-showcatalog-main/target/classes/edu/uoc/epcsd/showcatalog/repositories/ShowRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +84,8 @@
       <workItem from="1652137317177" duration="615000" />
       <workItem from="1652177768453" duration="3029000" />
       <workItem from="1652570007180" duration="1764000" />
-      <workItem from="1652652483164" duration="762000" />
+      <workItem from="1652652483164" duration="2652000" />
+      <workItem from="1652712496944" duration="4902000" />
     </task>
     <servers />
   </component>
